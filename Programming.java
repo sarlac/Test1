@@ -7,11 +7,11 @@ package test1;
 
 public class Programming {
 	
-	Programming()
+	public void printn()
 	{
 		System.out.println("I love programming language");
 	}
-	Programming(String s)
+	public void printn(String s)
 	{
 		System.out.println("I Love " +s);
 	}
@@ -19,7 +19,8 @@ public class Programming {
 	public static void main(String[] args) 
 	{
 		Programming P1=new Programming();
-		Programming P2=new Programming("CPP");
+		P1.printn();
+		P1.printn("CPP");
 		
 	}
 
